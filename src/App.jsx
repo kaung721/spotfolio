@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from './components/Sidebar'
+import Player from './components/Player'
 
 function App() {
   return (
