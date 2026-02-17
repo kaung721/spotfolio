@@ -4,35 +4,75 @@ import { PlayerContext } from '../context/PlayerContext'
 
 function Player() {
     const {seekBar, seekBg, playStatus, play, pause} = useContext(PlayerContext);
+    
   return (
     <div className='h-[10%] bg-black flex justify-between items-center text-white px-4'>
-        <div className='hidden lg:flex items-center gap-4'>
+        
+        <div className='hidden lg:flex items-center gap-4 w-[25%]'>
             <img className='w-12' src={songsData[0].image} alt="" />
             <div>
                 <p className='font-semibold'>{songsData[0].name}</p>
                 <p>{songsData[0].desc.slice(0, 12)}</p>
             </div>
         </div>
-        <div className='flex flex-col items-center gap-1 m-auto'>
-            <div className='flex gap-4'>
-                <img className='w-4 cursor-pointer' src={assets.shuffle_icon} alt="" />
-                <img className='w-4 cursor-pointer' src={assets.prev_icon} alt="" />
-                {playStatus
-                ?<img onClick={play} className='w-4 cursor-pointer' src={assets.play_icon} alt="" />
-                :<img onClick={pause} className='w-4 cursor-pointer' src={assets.pause_icon} alt="" /> 
-                } {/* Could probably remove this */}
-                <img className='w-4 cursor-pointer' src={assets.next_icon} alt="" />
-                <img className='w-4 cursor-pointer' src={assets.loop_icon} alt="" />
-            </div>
-            <div className='flex items-center gap-5'>
-                <p>0:40</p>
-                <div ref={seekBg} className='w-[60vw] max-w-[500px] bg-gray-300 rounded-full cursor-pointer'>
-                    <hr ref={seekBar} className='h-1 border-none w-[125px] bg-green-800 rounded-full' />
+
+        <div className="flex flex-col items-center gap-1 m-auto">
+            <div className="flex items-center gap-6">
+                
+                <img
+                className="w-4 opacity-70 hover:opacity-100 hover:scale-110 transition cursor-pointer"
+                src={assets.shuffle_icon}
+                alt=""
+                />
+
+                <img
+                className="w-5 opacity-70 hover:opacity-100 hover:scale-110 transition cursor-pointer"
+                src={assets.prev_icon}
+                alt=""
+                />
+
+                {/* Play Button */}
+                <div className="bg-white rounded-full flex items-center justify-center w-10 h-10 hover:scale-105 transition">
+                <img
+                    onClick={play}
+                    className="w-5 cursor-pointer"
+                    src={assets.play_icon}
+                    alt=""
+                />
                 </div>
-                <p>3:20</p>
+
+                <img
+                className="w-5 opacity-70 hover:opacity-100 hover:scale-110 transition cursor-pointer"
+                src={assets.next_icon}
+                alt=""
+                />
+
+                <img
+                className="w-4 opacity-70 hover:opacity-100 hover:scale-110 transition cursor-pointer"
+                src={assets.loop_icon}
+                alt=""
+                />
+
             </div>
-        </div>
-        <div className='hidden lg:flex items-center gap-2 opacity-75'>
+
+            <div className="flex items-center gap-4 w-[40vw] max-w-[1000px]">
+                <span className="text-[#b3b3b3] text-xs w-10 text-right">0:52</span>
+
+                <div
+                className="relative flex-1 h-1 bg-[#4d4d4d] rounded-full cursor-pointer group"
+                >
+                <div
+                    className="absolute h-1 bg-white rounded-full w-1/4 group-hover:bg-green-500 transition"
+                ></div>
+                </div>
+
+                <span className="text-[#b3b3b3] text-xs w-10">3:20</span>
+            </div>
+
+            </div>
+
+
+        <div className='hidden lg:flex items-center gap-3 opacity-75 w-[25%] justify-end'>
             <img className='w-4' src={assets.plays_icon} alt="" />
             <img className='w-4' src={assets.mic_icon} alt="" />
             <img className='w-4' src={assets.queue_icon} alt="" />

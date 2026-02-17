@@ -2,18 +2,31 @@ import React from 'react'
 import { assets } from '../assets/assets'
 
 function Sidebar() {
+  
+  const sidebarItems = [
+    { name: "Experience", icon: assets.liked_songs },
+    { name: "Tech Stack", icon: assets.stack_icon },
+    { name: "Certifications", icon: assets.plus_icon },
+    { name: "Projects", icon: assets.search_icon },
+    { name: "Contact", icon: assets.home_icon },
+  ]
+
   return (
     <div className='w-[25%] h-full p-2 flex-col gap-2 text-white hidden lg:flex'>
-        <div className='bg-[#121212] h-[15%] rounded flex flex-col justify-around'>
+        
+        {/* Top Navigation Block */}
+        <div className='bg-[#121212] h-[25%] rounded flex flex-col justify-around'>
             <div className='flex items-center gap-3 pl-8 cursor-pointer'>
-                <img className='w-6' src={assets.home_icon} alt=""/>
+                <img className='w-8' src={assets.home_icon} alt="Home"/>
                 <p className='font-bold'>Home</p>
             </div>
             <div className='flex items-center gap-3 pl-8 cursor-pointer'>
-                <img className='w-6' src={assets.search_icon} alt=""/>
+                <img className='w-8' src={assets.search_icon} alt="Search"/>
                 <p className='font-bold'>Search</p>
             </div>
         </div>
+
+        {/* Bottom Library Block */}
         <div className='bg-[#121212] h-[85%] rounded'>
             <div className='p-4 flex items-center justify-between'>
                 <div className='flex items-center gap-3'>
@@ -25,16 +38,19 @@ function Sidebar() {
                     <img className='w-5' src={assets.plus_icon} alt="" />
                 </div>
             </div>
-            <div className='p-4 bg-[#242424] m-2 rounded font-semibold flex flex-col items-start justify-start gap-1 pl-4'>
-                <h1>Create your first playlist</h1>
-                <p className='font-light'>It's easy we will help you</p>
-                <button className='px-4 py-1.5 bg-white text-[15px] text-black rounded-full mt-4'>Create Playlist</button>
+
+            <div className='flex flex-col'> 
+                {sidebarItems.map((item, index) => (
+                    <div 
+                        key={index} 
+                        className='flex items-center p-3 m-1 gap-3 rounded hover:bg-[#3E3E3E] cursor-pointer transition-colors'
+                    >
+                        <img className="w-12 h-12 object-cover rounded" src={item.icon} alt={item.name} />
+                        <span className="text-white font-semibold text-lg">{item.name}</span>
+                    </div>
+                ))}
             </div>
-            <div className='p-4 bg-[#242424] m-2 rounded font-semibold flex flex-col items-start justify-start gap-1 pl-4 mt-4'>
-                <h1>Let's find some podcasts to follow</h1>
-                <p className='font-light'>We'll keep you updated on new episodes</p>
-                <button className='px-4 py-1.5 bg-white text-[15px] text-black rounded-full mt-4'>Browse Podcasts</button>
-            </div>
+            
         </div>
     </div>
   )
