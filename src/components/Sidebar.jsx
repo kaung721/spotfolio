@@ -15,7 +15,7 @@ function Sidebar() {
     <div className='w-[25%] h-full p-2 flex-col gap-2 text-white hidden lg:flex'>
         
         {/* Top Navigation Block */}
-        <div className='bg-[#121212] h-[25%] rounded flex flex-col justify-around'>
+        <div className='bg-[#121212] h-[25%] rounded-lg flex flex-col justify-around'>
             <div className='flex items-center gap-3 pl-8 cursor-pointer'>
                 <img className='w-8' src={assets.home_icon} alt="Home"/>
                 <p className='font-bold'>Home</p>
@@ -27,7 +27,7 @@ function Sidebar() {
         </div>
 
         {/* Bottom Library Block */}
-        <div className='bg-[#121212] h-[85%] rounded'>
+        <div className='bg-[#121212] h-[85%] rounded-lg'>
             <div className='p-4 flex items-center justify-between'>
                 <div className='flex items-center gap-3'>
                     <img className='w-8'src={assets.stack_icon} alt="" />

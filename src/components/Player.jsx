@@ -26,23 +26,23 @@ function Player() {
                 />
 
                 <img
-                className="w-5 opacity-70 hover:opacity-100 hover:scale-110 transition cursor-pointer"
+                className="w-4 opacity-70 hover:opacity-100 hover:scale-110 transition cursor-pointer"
                 src={assets.prev_icon}
                 alt=""
                 />
 
                 {/* Play Button */}
-                <div className="bg-white rounded-full flex items-center justify-center w-10 h-10 hover:scale-105 transition">
+                <div className="bg-white rounded-full flex items-center justify-center w-8 h-8 hover:scale-105 transition">
                 <img
                     onClick={play}
-                    className="w-5 cursor-pointer"
+                    className="w-7 cursor-pointer"
                     src={assets.play_icon}
                     alt=""
                 />
                 </div>
 
                 <img
-                className="w-5 opacity-70 hover:opacity-100 hover:scale-110 transition cursor-pointer"
+                className="w-4 opacity-70 hover:opacity-100 hover:scale-110 transition cursor-pointer"
                 src={assets.next_icon}
                 alt=""
                 />
