@@ -3,6 +3,7 @@ import DisplayHome from './DisplayHome'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import DisplayAlbum from './DisplayAlbum'
 import { albumsData } from '../assets/assets'
+import { Sidebar } from './Sidebar'
 
 const Display = () => {
 
@@ -25,6 +26,7 @@ const Display = () => {
     <div ref={displayRef}className='w-[100%] m-2 px-6 pt-4 rounded-lg bg-[#121212] text-white overflow-auto lg:w-[75%] lg:ml-0'>
         <Routes>
             <Route path='/' element={<DisplayHome/>} />
+            <Route path='/page/:id' element={<Sidebar />} />
             <Route path='/album/:id' element={<DisplayAlbum/>} />
         </Routes>
     </div>

@@ -1,15 +1,11 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import { albumsData } from '../assets/assets'
+import { useParams } from 'react-router-dom'
 
 function Sidebar() {
   
-  const sidebarItems = [
-    { name: "Experience", icon: assets.liked_songs },
-    { name: "Tech Stack", icon: assets.stack_icon },
-    { name: "Certifications", icon: assets.plus_icon },
-    { name: "Projects", icon: assets.search_icon },
-    { name: "Contact", icon: assets.home_icon },
-  ]
+    const {id} = useParams();
 
   return (
     <div className='w-[25%] h-full p-2 flex-col gap-2 text-white hidden lg:flex'>
@@ -40,19 +36,19 @@ function Sidebar() {
             </div>
 
             <div className='flex flex-col'> 
-                {sidebarItems.map((item, index) => (
+                {albumsData.map((item, index) => (
                     <div 
                         key={index} 
                         className='flex items-center p-3 m-1 gap-3 rounded hover:bg-[#3E3E3E] cursor-pointer transition-colors'
                     >
-                        <img className="w-12 h-12 object-cover rounded" src={item.icon} alt={item.name} />
-                        <span className="text-white font-semibold text-lg">{item.name}</span>
+                        <img className="w-12 h-12 object-cover rounded" src={item.image} alt={item.name} />
+                        <span className="text-white font-semibold text-xl">{item.name}</span>
                     </div>
                 ))}
             </div>
+            </div>
             
         </div>
-    </div>
   )
 }
 
