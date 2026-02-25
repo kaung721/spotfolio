@@ -42,6 +42,10 @@ import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
 import liked_songs from './liked_songs.jpg'
+import djx from './djx.png'
+import sw2023 from './sw2023.jpg'
+import sw2024 from './sw2024.jpg'
+import sw2025 from './sw2025.jpg'
 
 export const assets = {
     bell_icon,
@@ -75,35 +79,35 @@ export const albumsData = [
     {   
         id:0,
         name: "Experience",
-        image: img8,
+        image: liked_songs,
         desc:"My professional journey, roles, and full-stack internships",
         bgColor:"#2a4365"
     },
     {   
         id:1,
         name: "Tech Stack",
-        image: img9,
+        image: djx,
         desc:"My most used languages, frameworks, and developer tools",
         bgColor:"#22543d"
     },
     {   
         id:2,
         name: "Certifications",
-        image: img10,
+        image: sw2023,
         desc:"Verified professional credentials and completed courses",
         bgColor:"#742a2a"
     },
     {   
         id:3,
         name: "Projects",
-        image: img16,
+        image: sw2024,
         desc:"A curated mix of my featured full-stack web applications",
         bgColor:"#44337a"
     },
     {   
         id:4,
         name: "Contact",
-        image: img11,
+        image: sw2025,
         desc:"Reach out for collaborations, freelance work, or roles",
         bgColor:"#234e52"
     }

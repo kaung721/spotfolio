@@ -3,7 +3,7 @@ import DisplayHome from './DisplayHome'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import DisplayAlbum from './DisplayAlbum'
 import { albumsData } from '../assets/assets'
-import { Sidebar } from './Sidebar'
+import Sidebar from './Sidebar'
 
 const Display = () => {
 
