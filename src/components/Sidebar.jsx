@@ -2,6 +2,7 @@ import React from 'react'
 import { assets } from '../assets/assets'
 import { albumsData } from '../assets/assets'
 import { useParams } from 'react-router-dom'
+import SidebarItem from './SidebarItem'
 
 function Sidebar() {
   
@@ -22,7 +23,6 @@ function Sidebar() {
         </div>
         <div className='bg-[#121212] flex-1 rounded-lg flex flex-col'>
             
-            {/* Header (Your Library) */}
             <div className='p-4 flex items-center justify-between'>
                 <div className='flex items-center gap-3'>
                     <img className='w-8' src={assets.stack_icon} alt="" />
@@ -36,13 +36,7 @@ function Sidebar() {
 
             <div className='flex flex-col flex-1 justify-between px-2 pb-6 pt-2'> 
                 {albumsData.map((item, index) => (
-                    <div 
-                        key={index} 
-                        className='flex items-center p-3 gap-4 rounded hover:bg-[#3E3E3E] cursor-pointer transition-colors'
-                    >
-                        <img className="w-12 h-12 xl:w-20 xl:h-20 object-cover rounded" src={item.image} alt="" />
-                        <span className="text-white font-semibold text-lg xl:text-xl">{item.name}</span>
-                    </div>
+                    <SidebarItem key={index} name={item.name} desc={item.desc} id={item.id} image={item.image}/>
                 ))}
             </div>
         </div>
