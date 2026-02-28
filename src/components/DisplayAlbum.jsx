@@ -29,8 +29,7 @@ const DisplayAlbum = () => {
         </div>
         <div className='grid grid-cols-3 sm:grid-cols-4 mt-10 mb-4 pl-2 text-[#a7a7a7]'>
             <p><b className='mr-4'>#</b>Title</p> {/* Role */}
-            <p>Album</p> {/* Company */}
-            <p className='hidden sm:block'>Date Added</p> {/* Date Started - Date Ended */}
+            <p>Company</p> {/* Company */}
             <img className='m-auto w-4' src={assets.clock_icon} alt="" /> {/* Duration */}
         </div>
         <hr />
@@ -39,12 +38,11 @@ const DisplayAlbum = () => {
                 <div key={index} className='grid grid-cols-3 sm:grid-cols-4 gap-2 p-2 items-center text-[#a7a7a7] hoverbg-[#ffffff2b] cursor-pointer'>
                     <p className='text-white'>
                         <b className='mr-4 text-[#a7a7a7]'>{index+1}</b>
-                        <img className='inline w-10 m-5' src={item.image} alt="" />
+                        <img className='inline w-10 m-5' src={item.image} alt="" /> {/* Company logo */}
                         {item.name}
                     </p>
-                    <p className='text-[15px]'>{albumData.name}</p>
-                    <p className='text-[15px] hidden sm:block'>5 days ago</p>
-                    <p className='text-[15px] text-center'>{item.duration}</p>
+                    <p className='text-[15px]'>{item.company}</p>
+                    <p className='text-[15px] text-center'>{item.date}</p>
                 </div>
             ))
         }

@@ -115,67 +115,92 @@ export const albumsData = [
 
 export const songsData = [
     {
-        id:0,
-        name: "Song One",
+        id: 0,
+        name: "Full-Stack Developer",
         image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        file: song1,
+        desc: "Georgian College",
+        duration: "Present",
+        company: "Georgian College",
+        date: "2024 - Present",
+        achievements: [
+            "Collaborate with faculty and clients to understand project requirements and objectives",
+            "Design and develop responsive websites and web applications using modern frameworks",
+            "Build mobile applications using cross-platform tools such as Flutter",
+            "Assist in UI/UX design, prototyping, and user testing for optimal user experience",
+            "Integrate third-party APIs and backend services",
+            "Conduct technical research and document code for future reference"
+        ],
+        technologies: ["ASP.NET", "Flutter", "Bootstrap", "Chart.js", "jQuery"]
     },
     {
-        id:1,
-        name: "Song Two",
+        id: 1,
+        name: "Computer Programming Diploma",
         image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        file: song2,
+        desc: "Georgian College • Specialized focus on web development and cybersecurity",
+        duration: "2026",
+        company: "Georgian College",
+        date: "2024 - 2026",
+        achievements: [
+            "Maintained high academic performance in programming courses",
+            "Completed advanced coursework in web security and ethical hacking",
+            "Led student cybersecurity awareness initiatives",
+            "Developed multiple full-stack web applications"
+        ],
+        technologies: ["C#", "Java", "Python", "HTML/CSS", "JavaScript", "SQL"]
     },
     {
-        id:2,
-        name: "Song Three",
+        id: 2,
+        name: "AUTOHACK Educational Software",
         image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        file: song3,
+        desc: "Hackathon • Built an interactive automotive simulation tool",
+        duration: "2025",
+        company: "AUTOHACK",
+        date: "2025",
+        achievements: [
+            "Designed and implemented a simulation tool for car parts, allowing users to learn virtual mechanics safely",
+            "Created Python-based backend and interactive frontend components to replicate real-world systems",
+            "Collaborated with team members to ensure usability, accuracy, and an engaging learning experience",
+            "Demonstrated the project to judges and received positive feedback for innovation and practical impact"
+        ],
+        technologies: ["Python", "JavaScript", "Git", "VS Code", "OOP"]
     },
     {
-        id:3,
-        name: "Song Four",
+        id: 3,
+        name: "Capture The Flag (CTF)",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        file: song1,
+        desc: "High School • Solved 50+ web exploitation & security challenges",
+        duration: "2023",
+        company: "High School",
+        date: "2023",
+        achievements: [
+            "Completed 50+ CTF challenges across web exploitation, privilege escalation, and network security",
+            "Identified vulnerabilities in lab environments and documented detailed write-ups",
+            "Developed Python scripts to automate scanning and exploitation tasks, improving efficiency",
+            "Collaborated with teammates to strategize and solve complex multi-step challenges"
+        ],
+        technologies: ["Python", "Linux", "Wireshark", "Nmap", "Burp Suite", "TryHackMe"]
     },
     {
-        id:4,
-        name: "Song Five",
+        id: 4,
+        name: "HP Sales Representative",
         image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
-    },
-    {
-        id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
-    },
-    {
-        id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
-    },
-    {
-        id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        file: song2,
+        desc: "Mosaic North America • Sales, promotions, and customer relations",
+        duration: "Present",
+        company: "Mosaic North America",
+        date: "Sep 2024 - Present",
+        achievements: [
+            "Collaborated with team members to consistently achieve and exceed monthly sales goals",
+            "Educated consumers on active sales, promotions, and product features to drive revenue",
+            "Assisted in the creation and distribution of promotional materials and retail advertisements",
+            "Maintained a high standard of professionalism, reliability, and teamwork, frequently assisting colleagues to ensure seamless operations",
+            "Contributed innovative ideas to optimize daily retail processes, improving overall efficiency",
+            "Continuously analyzed market trends to propose creative strategies for product positioning"
+        ],
+        technologies: ["Customer Service", "Sales Strategy", "Teamwork", "Promotions", "Problem Solving"]
     }
 ]

@@ -12,7 +12,7 @@ function Player() {
             <img className='w-12' src={songsData[0].image} alt="" />
             <div>
                 <p className='font-semibold'>{songsData[0].name}</p>
-                <p>{songsData[0].desc.slice(0, 12)}</p>
+                <p>{songsData[0].desc}</p>
             </div>
         </div>
 

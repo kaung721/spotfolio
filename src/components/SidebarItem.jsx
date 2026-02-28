@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const SidebarItem = ({image, name, desc, id}) => {
+const SidebarItem = ({image, name, id}) => {
 
     const navigate = useNavigate()
   return (
