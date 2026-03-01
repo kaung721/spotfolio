@@ -157,7 +157,7 @@ export const songsData = [
         file: song3,
         desc: "Hackathon • Built an interactive automotive simulation tool",
         duration: "2025",
-        company: "AUTOHACK",
+        company: "Georgian College",
         date: "2025",
         achievements: [
             "Designed and implemented a simulation tool for car parts, allowing users to learn virtual mechanics safely",
