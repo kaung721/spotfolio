@@ -152,7 +152,7 @@ export const songsData = [
     },
     {
         id: 2,
-        name: "AUTOHACK Educational Software",
+        name: "AUTOHACK",
         image: img3,
         file: song3,
         desc: "Hackathon • Built an interactive automotive simulation tool",
@@ -161,11 +161,11 @@ export const songsData = [
         date: "2025",
         achievements: [
             "Designed and implemented a simulation tool for car parts, allowing users to learn virtual mechanics safely",
-            "Created Python-based backend and interactive frontend components to replicate real-world systems",
+            "Created frontend components to replicate real-world systems",
             "Collaborated with team members to ensure usability, accuracy, and an engaging learning experience",
             "Demonstrated the project to judges and received positive feedback for innovation and practical impact"
         ],
-        technologies: ["Python", "JavaScript", "Git", "VS Code", "OOP"]
+        technologies: ["HTML", "CSS", "JavaScript", "Git", "VS Code", "OOP"]
     },
     {
         id: 3,
