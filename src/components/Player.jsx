@@ -6,7 +6,7 @@ function Player() {
     const {seekBar, seekBg, playStatus, play, pause} = useContext(PlayerContext);
     
   return (
-    <div className='h-[10%] bg-black flex justify-between items-center text-white px-4'>
+    <div className='h-[10%] bg-black flex justify-between items-center text-white px-5 pb-2'>
         
         <div className='hidden lg:flex items-center gap-4 w-[25%]'>
             <img className='w-12' src={songsData[0].image} alt="" />

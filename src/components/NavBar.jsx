@@ -14,8 +14,8 @@ const NavBar = () => {
                 <img onClick={()=>navigate(1)} className='w-8 bg-black p-2 rounded-2xl cursor-pointer' src={assets.arrow_right} alt="" />
             </div>
             <div className='flex items-center gap-4'>
-                <p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer'>View Source Code</p>
-                <p className='bg-black py-1 px-3 rounded-2xl text-[15px] cursor-pointer'>Download Resume</p>
+                <a href="https://github.com/kaung721/spotfolio" target="_blank" rel="noopener noreferrer"><p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer'>View Source Code</p></a>
+                <a href="/resume_j.pdf" download="KaungMyatHein_resume.pdf"><p className='bg-black py-1 px-3 rounded-2xl text-[15px] cursor-pointer'>Download Resume</p></a>
                 <p className='bg-blue-400 text-black w-7 h-7 rounded-full flex items-center justify-center'>K</p> {/* Link to somewhere. Github, linkedin etc. */}          
             </div>
         </div>
