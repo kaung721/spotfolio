@@ -38,7 +38,7 @@ const DisplayAlbum = () => {
                 <div key={index} className='grid grid-cols-[2fr_1fr_1fr] sm:grid-cols-[2fr_1fr_1fr] gap-2 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'>
                     <p className='text-white'>
                         <b className='mr-4 text-[#a7a7a7]'>{index+1}</b>
-                        <img className='inline w-10 m-5' src={item.image} alt="" /> {/* Company logo */}
+                        <img className='inline w-12 m-5' src={item.image} alt="" /> {/* Company logo */}
                         {item.name}
                     </p>
                     <p className='text-[15px]'>{item.company}</p>
