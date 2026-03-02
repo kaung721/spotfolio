@@ -210,5 +210,60 @@ export const songsData = [
     
 ]
 export const techStack = [
-    
-]
+    {
+        name: "ASP.NET / Core",
+        category: "Backend Framework",
+        icon: assets.dotnet_icon, 
+        experience: "Advanced",
+        description: "Building robust, scalable web applications"
+    },
+    {
+        name: "C#",
+        category: "Language",
+        icon: assets.csharp_icon,
+        experience: "Advanced",
+        description: "Object-oriented backend logic"
+    },
+    {
+        name: "RESTful APIs",
+        category: "Backend Integration",
+        icon: assets.api_icon, 
+        experience: "Proficient",
+        description: "Designing, building, and consuming APIs"
+    },
+    {
+        name: "Flutter & Dart",
+        category: "Mobile App Dev",
+        icon: assets.flutter_icon,
+        experience: "Intermediate",
+        description: "Cross-platform mobile application development"
+    },
+    {
+        name: "JavaScript (ES6+)",
+        category: "Frontend Language",
+        icon: assets.js_icon,
+        experience: "Proficient",
+        description: "Dynamic DOM manipulation and client-side logic"
+    },
+    {
+        name: "HTML5 & CSS3",
+        category: "Frontend Core",
+        icon: assets.html_icon, // or css_icon
+        experience: "Advanced",
+        description: "Semantic markup and responsive styling"
+    },
+    {
+        name: "SQL (SQL Server / PostgreSQL)",
+        category: "Database",
+        icon: assets.sql_icon,
+        experience: "Proficient",
+        description: "Database design, queries, and management"
+    },
+    {
+        name: "Git & GitHub",
+        category: "Version Control",
+        icon: assets.git_icon,
+        experience: "Proficient",
+        description: "Source code management and team collaboration"
+    }
+];
