@@ -50,6 +50,28 @@ import yecc from './yecc.jpg'
 import mosaic from './mosaic.jpg'
 import gc from './gc.jpg'
 import gc2 from './gc2.jpg'
+import dotnet_icon from './dotnet_icon.svg'
+import csharp_icon from './csharp_icon.png'
+import api_icon from './api_icon.jpg'
+import flutter_icon from './flutter_icon.png'
+import js_icon from './js_icon.png'
+import html_icon from './html_icon.png'
+import css_icon from './css_icon.png'
+import bootstrap_icon from './bootstrap_icon.svg'
+import tailwind_icon from './tailwind_icon.jpg'
+import sql_icon from './sql_icon.png'
+import python_icon from './python_icon.png'
+import java_icon from './java_icon.png'
+import php_icon from './php_icon.png'
+import linux_icon from './linux_icon.png'
+import git_icon from './git_icon.png'
+import google_icon from './google_icon.png'
+import comptia_icon from './comptia_icon.png'
+import eccouncil_icon from './eccouncil_icon.png'
+import isc2_icon from './isc2_icon.png'
+import azure_icon from './azure_icon.png'
+import offsec_icon from './offsec_icon.png'
+import aws_icon from './aws_icon.png'
 
 export const assets = {
     bell_icon,
@@ -213,57 +235,161 @@ export const techStack = [
     {
         name: "ASP.NET / Core",
         category: "Backend Framework",
-        icon: assets.dotnet_icon, 
+        icon: dotnet_icon, 
         experience: "Advanced",
         description: "Building robust, scalable web applications"
     },
     {
         name: "C#",
         category: "Language",
-        icon: assets.csharp_icon,
+        icon: csharp_icon,
         experience: "Advanced",
         description: "Object-oriented backend logic"
     },
     {
-        name: "RESTful APIs",
-        category: "Backend Integration",
-        icon: assets.api_icon, 
-        experience: "Proficient",
-        description: "Designing, building, and consuming APIs"
-    },
-    {
-        name: "Flutter & Dart",
-        category: "Mobile App Dev",
-        icon: assets.flutter_icon,
-        experience: "Intermediate",
-        description: "Cross-platform mobile application development"
-    },
-    {
-        name: "JavaScript (ES6+)",
-        category: "Frontend Language",
-        icon: assets.js_icon,
-        experience: "Proficient",
-        description: "Dynamic DOM manipulation and client-side logic"
-    },
-    {
-        name: "HTML5 & CSS3",
+        name: "HTML5",
         category: "Frontend Core",
-        icon: assets.html_icon, // or css_icon
+        icon: html_icon, 
         experience: "Advanced",
         description: "Semantic markup and responsive styling"
     },
     {
-        name: "SQL (SQL Server / PostgreSQL)",
+        name: "CSS3",
+        category: "Frontend Core",
+        icon: css_icon,
+        experience: "Advanced",
+        description: "Responsive styling and layout design"
+    },
+    {
+        name: "Bootstrap",
+        category: "Frontend Framework",
+        icon: bootstrap_icon,
+        experience: "Advanced",
+        description: "Responsive UI components and layout systems"
+    },
+    {
+        name: "Tailwind CSS",
+        category: "Frontend Framework",
+        icon: tailwind_icon,
+        experience: "Advanced",
+        description: "Responsive UI components and layout systems"
+    },
+    {
+        name: "RESTful APIs",
+        category: "Backend Integration",
+        icon: api_icon, 
+        experience: "Proficient",
+        description: "Designing, building, and consuming APIs"
+    },
+    {
+        name: "JavaScript",
+        category: "Frontend Language",
+        icon: js_icon,
+        experience: "Proficient",
+        description: "Dynamic DOM manipulation and client-side logic"
+    },
+    {
+        name: "SQL (SQL Server)",
         category: "Database",
-        icon: assets.sql_icon,
+        icon: sql_icon,
         experience: "Proficient",
         description: "Database design, queries, and management"
     },
     {
         name: "Git & GitHub",
         category: "Version Control",
-        icon: assets.git_icon,
+        icon: git_icon,
         experience: "Proficient",
         description: "Source code management and team collaboration"
+    },
+
+    {
+        name: "Flutter & Dart",
+        category: "Mobile App Dev",
+        icon: flutter_icon,
+        experience: "Intermediate",
+        description: "Cross-platform mobile application development"
+    },
+    {
+        name: "Python",
+        category: "Language / Scripting",
+        icon: python_icon,
+        experience: "Intermediate",
+        description: "Object-oriented programming and data scripting"
+    },
+    {
+        name: "Java",
+        category: "Language",
+        icon: java_icon,
+        experience: "Intermediate",
+        description: "Object-oriented programming and enterprise applications"
+    },
+    {
+        name: "Linux",
+        category: "Environment / Server",
+        icon: linux_icon,
+        experience: "Intermediate",
+        description: "Command-line server management and deployment"
+    },
+
+    {
+        name: "PHP",
+        category: "Backend Language",
+        icon: php_icon,
+        experience: "Beginner",
+        description: "Server-side web scripting and legacy maintenance"
     }
 ];
+export const certifications = [
+    {
+        name: "Google Cybersecurity Certificate",
+        issuer: "Google",
+        icon: google_icon, 
+        date: "Done" ,
+        link: "https://www.coursera.org/account/accomplishments/professional-cert/6AUZXEZ4CGX3"
+    },
+    {
+        name: "CompTIA Security+",
+        issuer: "CompTIA",
+        icon: comptia_icon,
+        date: "In Progress"
+    },
+    {
+        name: "Certified Ethical Hacker (CEH)",
+        issuer: "EC-Council",
+        icon: eccouncil_icon,
+        date: "Planned"
+    },
+    {
+        name: "CISSP",
+        issuer: "ISC²",
+        icon: isc2_icon,
+        date: "Future Goal"
+    },
+    
+    {
+        name: "Microsoft Certified: Azure Fundamentals (AZ-900)",
+        issuer: "Microsoft",
+        icon: azure_icon,
+        date: "Planned"
+    },
+    {
+        name: "Offensive Security Certified Professional (OSCP)",
+        issuer: "OffSec",
+        icon: offsec_icon,
+        date: "Future Goal"
+    },
+    {
+        name: "AWS Certified Cloud Practitioner",
+        issuer: "Amazon Web Services",
+        icon: aws_icon,
+        date: "Planned"
+    }
+];
+export const projects = [
+    {
+        name: "Project 1",
+        techStack: "Tech Stack 1",
+        date: "2024-01-01"
+    }
+]
