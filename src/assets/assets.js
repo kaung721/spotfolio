@@ -22,25 +22,6 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import img3 from './img3.jpg'
-import img4 from './img4.jpg'
-import img5 from './img5.jpg'
-import img6 from './img6.jpg'
-import img7 from './img7.jpg'
-import img8 from './img8.jpg'
-import img9 from './img9.jpg'
-import img10 from './img10.jpg'
-import img11 from './img11.jpg'
-import img12 from './img12.jpg'
-import img13 from './img13.jpg'
-import img14 from './img14.jpg'
-import img15 from './img15.jpg'
-import img16 from './img16.jpg'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
 import liked_songs from './liked_songs.jpg'
 import djx from './djx.png'
 import sw2023 from './sw2023.jpg'
@@ -72,6 +53,16 @@ import isc2_icon from './isc2_icon.png'
 import azure_icon from './azure_icon.png'
 import offsec_icon from './offsec_icon.png'
 import aws_icon from './aws_icon.png'
+import archi from './archi.png'
+import bball from './bball.png'
+import js1 from './js1.png'
+import js2 from './js2.png'
+import newsfeed from './newsfeed.png'
+import sentinel from './sentinel.png'
+import starburst from './starburst.png'
+import void_icon from './void.png'
+import billSplitter from './billSplitter.png'
+import lyrics from './lyrics.png'
 
 export const assets = {
     bell_icon,
@@ -392,7 +383,7 @@ export const projects = [
         techStack: "React, Three.js, Python, Arduino",
         date: "2026", 
         description: "A real-time robotic arm monitoring system featuring hardware sensor integration, Python anomaly detection, and a live 3D digital twin dashboard.",
-        image: assets.sentinel_icon, 
+        image: sentinel, 
         source: "https://github.com/kaung721/AutoHack2.0", 
         link: "" 
     },
@@ -401,7 +392,7 @@ export const projects = [
         techStack: "HTML, Custom SVGs, CSS", 
         date: "2026", 
         description: "An interactive architectural timeline featuring 12 iconic global structures spanning 4,500 years. Includes dynamic era-based filtering, detailed informational modals, and custom hand-drawn SVG illustrations.",
-        image: assets.architecture_icon,
+        image: archi,
         source: "https://github.com/kaung721/Architectural-Explorer",
         link: "https://architecture-explorer.kaungmyathein721.workers.dev/"
     },
@@ -410,7 +401,7 @@ export const projects = [
         techStack: "React, Node.js, Express, MongoDB",
         date: "2026", 
         description: "A personalized news reader that parses external RSS feeds, featuring category filtering, user authentication, and persistent article bookmarking.",
-        image: assets.news_icon, 
+        image: newsfeed, 
         source: "https://github.com/kaung721/GroupTutorialCOMP2068",
         link: "https://grouptutorialcomp2068frontend.onrender.com"
     },
@@ -419,7 +410,7 @@ export const projects = [
         techStack: "Node.js, Express, MongoDB, Handlebars",
         date: "2025",
         description: "A server-rendered web app for managing household expenses, featuring OAuth integration, item assignment, and dynamic split summaries.",
-        image: assets.bill_icon, 
+        image: billSplitter, 
         source: "https://github.com/kaung721/bill-splitter",
         link: "https://bill-splitter-z4dl.onrender.com/" 
     },
@@ -428,16 +419,16 @@ export const projects = [
         techStack: "Vanilla JavaScript, HTML, CSS",
         date: "2025",
         description: "An interactive DOM-manipulation application that builds and visualizes randomized sentences from categorized 2D arrays.",
-        image: assets.sentence_icon, 
+        image: js1, 
         source: "https://github.com/kaung721/jsAssign1",
-        link: "https://github.com/kaung721/jsAssign1/actions/runs/22929472642"
+        link: "https://kaung721.github.io/jsAssign1/"
     },
     {
         name: "Smoothie POS Calculator",
         techStack: "Vanilla JavaScript, HTML",
         date: "2025",
         description: "An object-oriented ordering system that dynamically calculates pricing and generates order summaries based on user ingredient selections.",
-        image: assets.smoothie_icon, 
+        image: js2, 
         source: "https://github.com/kaung721/jsAssign2",
         link: "https://kaung721.github.io/jsAssign2/"
     },
@@ -446,7 +437,7 @@ export const projects = [
         techStack: "HTML5, CSS3, Vanilla JS",
         date: "2025",
         description: "A dedicated athletic team portal featuring responsive game schedules, dynamic player rosters, and an interactive media gallery built without external UI libraries.",
-        image: assets.baytown_icon, 
+        image: bball, 
         source: "https://github.com/kaung721/BasketballWebsite",
         link: "https://kaung721.github.io/BasketballWebsite/"
     },
@@ -455,7 +446,7 @@ export const projects = [
         techStack: "Python",
         date: "2024",
         description: "A keyword-based parsing tool built to simulate modern Applicant Tracking Systems (ATS) and evaluate resume compatibility.",
-        image: assets.python_project_icon, 
+        image: python_icon, 
         source: "https://github.com/kaung721/resumeScanner",
         link: "" 
     },
@@ -464,7 +455,7 @@ export const projects = [
         techStack: "HTML5, CSS3, Vanilla JS",
         date: "2024",
         description: "A vibrant, interactive promotional website for a candy storefront. Features custom CSS animations, dynamic product displays, and a mobile-first responsive layout.",
-        image: assets.starburst_icon, 
+        image: starburst, 
         source: "https://github.com/kaung721/assignment-2-fall",
         link: "https://kaung721.github.io/assignment-2-fall/"
     },
@@ -473,7 +464,7 @@ export const projects = [
         techStack: "HTML5, CSS3, Vanilla JS",
         date: "2024",
         description: "A sleek, minimalist frontend landing page designed for a modern streetwear brand. Utilizes CSS Grid/Flexbox for responsive product catalogs and clean typography.",
-        image: assets.void_icon, 
+        image: void_icon, 
         source: "https://github.com/kaung721/fall_finalProject",
         link: "https://kaung721.github.io/fall_finalProject/"
     },
@@ -482,7 +473,7 @@ export const projects = [
         techStack: "HTML5, CSS3",
         date: "2024",
         description: "A visually engaging, single-page web experience that brings song lyrics to life through creative typography, advanced CSS styling, and responsive layout design.",
-        image: assets.lyrics_icon,
+        image: lyrics,
         source: "https://github.com/kaung721/fall_assignment1",
         link: "https://kaung721.github.io/fall_assignment1/"
     }
