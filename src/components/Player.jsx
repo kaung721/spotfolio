@@ -1,9 +1,7 @@
 import React, { useContext } from 'react'
 import { assets, songsData } from '../assets/assets'
-import { PlayerContext } from '../context/PlayerContext'
 
 function Player() {
-    const {seekBar, seekBg, playStatus, play, pause} = useContext(PlayerContext);
     
   return (
     <div className='h-[10%] bg-black flex justify-between items-center text-white px-5 pb-2'>
@@ -34,7 +32,6 @@ function Player() {
                 {/* Play Button */}
                 <div className="bg-white rounded-full flex items-center justify-center w-8 h-8 hover:scale-105 transition">
                 <img
-                    onClick={play}
                     className="w-7 cursor-pointer"
                     src={assets.play_icon}
                     alt=""
