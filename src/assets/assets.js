@@ -127,7 +127,7 @@ export const albumsData = [
         id:3,
         name: "Projects",
         image: sw2024,
-        desc:"A curated mix of my featured full-stack web applications",
+        desc:"A curated mix of my featured websites and applications",
         bgColor:"#44337a"
     },
     {   
@@ -261,6 +261,13 @@ export const techStack = [
         description: "Responsive styling and layout design"
     },
     {
+        name: "JavaScript",
+        category: "Frontend Language",
+        icon: js_icon,
+        experience: "Advanced",
+        description: "Dynamic DOM manipulation and client-side logic"
+    },
+    {
         name: "Bootstrap",
         category: "Frontend Framework",
         icon: bootstrap_icon,
@@ -280,13 +287,6 @@ export const techStack = [
         icon: api_icon, 
         experience: "Proficient",
         description: "Designing, building, and consuming APIs"
-    },
-    {
-        name: "JavaScript",
-        category: "Frontend Language",
-        icon: js_icon,
-        experience: "Proficient",
-        description: "Dynamic DOM manipulation and client-side logic"
     },
     {
         name: "SQL (SQL Server)",
@@ -388,8 +388,102 @@ export const certifications = [
 ];
 export const projects = [
     {
-        name: "Project 1",
-        techStack: "Tech Stack 1",
-        date: "2024-01-01"
+        name: "Sentinel Predictive Maintenance Monitor",
+        techStack: "React, Three.js, Python, Arduino",
+        date: "2026", 
+        description: "A real-time robotic arm monitoring system featuring hardware sensor integration, Python anomaly detection, and a live 3D digital twin dashboard.",
+        image: assets.sentinel_icon, 
+        source: "https://github.com/kaung721/AutoHack2.0", 
+        link: "" 
+    },
+    {
+        name: "Architectural Wonders Explorer", 
+        techStack: "HTML, Custom SVGs, CSS", 
+        date: "2026", 
+        description: "An interactive architectural timeline featuring 12 iconic global structures spanning 4,500 years. Includes dynamic era-based filtering, detailed informational modals, and custom hand-drawn SVG illustrations.",
+        image: assets.architecture_icon,
+        source: "https://github.com/kaung721/Architectural-Explorer",
+        link: "https://architecture-explorer.kaungmyathein721.workers.dev/"
+    },
+    {
+        name: "Full-Stack News Aggregator",
+        techStack: "React, Node.js, Express, MongoDB",
+        date: "2026", 
+        description: "A personalized news reader that parses external RSS feeds, featuring category filtering, user authentication, and persistent article bookmarking.",
+        image: assets.news_icon, 
+        source: "https://github.com/kaung721/GroupTutorialCOMP2068",
+        link: "https://grouptutorialcomp2068frontend.onrender.com"
+    },
+    {
+        name: "Roommate Bill Splitter",
+        techStack: "Node.js, Express, MongoDB, Handlebars",
+        date: "2025",
+        description: "A server-rendered web app for managing household expenses, featuring OAuth integration, item assignment, and dynamic split summaries.",
+        image: assets.bill_icon, 
+        source: "https://github.com/kaung721/bill-splitter",
+        link: "https://bill-splitter-z4dl.onrender.com/" 
+    },
+    {
+        name: "Silly Sentence Generator",
+        techStack: "Vanilla JavaScript, HTML, CSS",
+        date: "2025",
+        description: "An interactive DOM-manipulation application that builds and visualizes randomized sentences from categorized 2D arrays.",
+        image: assets.sentence_icon, 
+        source: "https://github.com/kaung721/jsAssign1",
+        link: "https://github.com/kaung721/jsAssign1/actions/runs/22929472642"
+    },
+    {
+        name: "Smoothie POS Calculator",
+        techStack: "Vanilla JavaScript, HTML",
+        date: "2025",
+        description: "An object-oriented ordering system that dynamically calculates pricing and generates order summaries based on user ingredient selections.",
+        image: assets.smoothie_icon, 
+        source: "https://github.com/kaung721/jsAssign2",
+        link: "https://kaung721.github.io/jsAssign2/"
+    },
+    {
+        name: "Baytown Basketball Club",
+        techStack: "HTML5, CSS3, Vanilla JS",
+        date: "2025",
+        description: "A dedicated athletic team portal featuring responsive game schedules, dynamic player rosters, and an interactive media gallery built without external UI libraries.",
+        image: assets.baytown_icon, 
+        source: "https://github.com/kaung721/BasketballWebsite",
+        link: "https://kaung721.github.io/BasketballWebsite/"
+    },
+    {
+        name: "ATS Resume Scanner",
+        techStack: "Python",
+        date: "2024",
+        description: "A keyword-based parsing tool built to simulate modern Applicant Tracking Systems (ATS) and evaluate resume compatibility.",
+        image: assets.python_project_icon, 
+        source: "https://github.com/kaung721/resumeScanner",
+        link: "" 
+    },
+    {
+        name: "Starburst Confectionery",
+        techStack: "HTML5, CSS3, Vanilla JS",
+        date: "2024",
+        description: "A vibrant, interactive promotional website for a candy storefront. Features custom CSS animations, dynamic product displays, and a mobile-first responsive layout.",
+        image: assets.starburst_icon, 
+        source: "https://github.com/kaung721/assignment-2-fall",
+        link: "https://kaung721.github.io/assignment-2-fall/"
+    },
+    {
+        name: "Void Apparel E-Commerce UI",
+        techStack: "HTML5, CSS3, Vanilla JS",
+        date: "2024",
+        description: "A sleek, minimalist frontend landing page designed for a modern streetwear brand. Utilizes CSS Grid/Flexbox for responsive product catalogs and clean typography.",
+        image: assets.void_icon, 
+        source: "https://github.com/kaung721/fall_finalProject",
+        link: "https://kaung721.github.io/fall_finalProject/"
+    },
+    {
+        name: "Typographic Lyric Visualizer", 
+        techStack: "HTML5, CSS3",
+        date: "2024",
+        description: "A visually engaging, single-page web experience that brings song lyrics to life through creative typography, advanced CSS styling, and responsive layout design.",
+        image: assets.lyrics_icon,
+        source: "https://github.com/kaung721/fall_assignment1",
+        link: "https://kaung721.github.io/fall_assignment1/"
     }
-]
+];
