@@ -15,7 +15,7 @@ const NavBar = () => {
             </div>
             <div className='flex items-center gap-4'>
                 <a href="https://github.com/kaung721/spotfolio" target="_blank" rel="noopener noreferrer"><p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer'>View Source Code</p></a>
-                <a href="/resume_k.pdf" download="KaungMyatHein_resume.pdf"><p className='bg-black py-1 px-3 rounded-2xl text-[15px] cursor-pointer'>Download Resume</p></a>
+                <a href="https://drive.google.com/file/d/1T5lkedDTe2LBAI8fat8k8ZQ3PFD-aUS1/view?usp=sharing" target="_blank" rel="noopener noreferrer"><p className='bg-black py-1 px-3 rounded-2xl text-[15px] cursor-pointer'>Resume</p></a>
                 <p className='bg-blue-400 text-black w-7 h-7 rounded-full flex items-center justify-center'>K</p> {/* Link to somewhere. Github, linkedin etc. */}          
             </div>
         </div>
