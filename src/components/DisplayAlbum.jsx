@@ -55,7 +55,7 @@ const DisplayAlbum = () => {
                 <h4>{albumData.desc}</h4>
                 <p className='mt-1'>
                     <img className='inline-block w-5 mr-2' src={assets.spotify_logo} alt="" />
-                    <b>Spotifolio </b>
+                    <b>Spotfolio </b>
                     {Number(id) !== 4 && `• ${currentArray.length} items`}
                 </p>
             </div>
@@ -68,7 +68,7 @@ const DisplayAlbum = () => {
                 <h3 className="text-2xl font-bold mb-4">Let's Connect</h3>
                 <p className="text-[#a7a7a7] mb-8">Feel free to reach out for full-stack opportunities or collaborations!</p>
                 <div className="flex gap-4">
-                    <a href="mailto:kaunmyathein001@hotmail.com" className="bg-white text-black px-8 py-3 rounded-full font-bold hover:scale-105 transition-transform">Email Me</a>
+                    <a href="mailto:kaungmyathein001@hotmail.com" className="bg-white text-black px-8 py-3 rounded-full font-bold hover:scale-105 transition-transform">Email Me</a>
                     <a href="https://linkedin.com/in/kaungmyathein" target="_blank" rel="noopener noreferrer" className="bg-[#242424] text-white px-8 py-3 rounded-full font-bold border border-[#a7a7a7] hover:border-white transition-colors">LinkedIn</a>
                     <a href="https://github.com/kaung721" target="_blank" rel="noopener noreferrer" className="bg-[#24292e] text-white px-8 py-3 rounded-full font-bold border border-[#a7a7a7] hover:bg-white hover:text-black hover:border-white transition-all duration-300">
     GitHub

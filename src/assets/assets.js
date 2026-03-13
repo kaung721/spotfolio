@@ -169,6 +169,22 @@ export const songsData = [
     },
     {
         id: 2,
+        name: "AUTOHACK 2.0",
+        image: gc,
+        desc: "Hackathon • Built an interactive automotive simulation tool",
+        duration: "2026",
+        company: "Georgian College",
+        date: "2026",
+        achievements: [
+            "Designed and implemented a simulation tool for car parts, allowing users to learn virtual mechanics safely",
+            "Created frontend components to replicate real-world systems",
+            "Collaborated with team members to ensure usability, accuracy, and an engaging learning experience",
+            "Demonstrated the project to judges and received positive feedback for innovation and practical impact"
+        ],
+        technologies: ["HTML", "CSS", "JavaScript", "Git", "VS Code", "OOP"]
+    },
+    {
+        id: 3,
         name: "Computer Programming Diploma",
         image: gc,
         desc: "Georgian College • Specialized focus on web development and cybersecurity",
@@ -182,22 +198,6 @@ export const songsData = [
             "Developed multiple full-stack web applications"
         ],
         technologies: ["C#", "Java", "Python", "HTML/CSS", "JavaScript", "SQL"]
-    },
-    {
-        id: 3,
-        name: "AUTOHACK",
-        image: gc,
-        desc: "Hackathon • Built an interactive automotive simulation tool",
-        duration: "2025",
-        company: "Georgian College",
-        date: "2025",
-        achievements: [
-            "Designed and implemented a simulation tool for car parts, allowing users to learn virtual mechanics safely",
-            "Created frontend components to replicate real-world systems",
-            "Collaborated with team members to ensure usability, accuracy, and an engaging learning experience",
-            "Demonstrated the project to judges and received positive feedback for innovation and practical impact"
-        ],
-        technologies: ["HTML", "CSS", "JavaScript", "Git", "VS Code", "OOP"]
     },
     {
         id: 4,
@@ -347,12 +347,11 @@ export const certifications = [
         date: "Planned"
     },
     {
-        name: "CISSP",
-        issuer: "ISC²",
-        icon: isc2_icon,
-        date: "Future Goal"
+        name: "AWS Certified Cloud Practitioner",
+        issuer: "Amazon Web Services",
+        icon: aws_icon,
+        date: "Planned"
     },
-    
     {
         name: "Microsoft Certified: Azure Fundamentals (AZ-900)",
         issuer: "Microsoft",
@@ -360,17 +359,17 @@ export const certifications = [
         date: "Planned"
     },
     {
+        name: "CISSP",
+        issuer: "ISC²",
+        icon: isc2_icon,
+        date: "Future Goal"
+    },
+    {
         name: "Offensive Security Certified Professional (OSCP)",
         issuer: "OffSec",
         icon: offsec_icon,
         date: "Future Goal"
     },
-    {
-        name: "AWS Certified Cloud Practitioner",
-        issuer: "Amazon Web Services",
-        icon: aws_icon,
-        date: "Planned"
-    }
 ];
 export const projects = [
     {
